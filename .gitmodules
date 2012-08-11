@@ -1,0 +1,3 @@
+[submodule "bundle/autocomplpop"]
+	path = bundle/autocomplpop
+	url = https://github.com/zah/AutoComplPop.git

@@ -7,3 +7,6 @@
 [submodule "bundle/xmlvim"]
 	path = bundle/xmlvim
 	url = https://github.com/othree/xml.vim.git
+[submodule "bundle/surround"]
+	path = bundle/surround
+	url = https://github.com/tpope/vim-surround.git

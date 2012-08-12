@@ -1,5 +1,30 @@
+What is this?
+=============
+
+This is the git repo of my .vim folder for easier migration/setup
+I'm using pathogen to manage my plugins and git submodules to keep them up-to-date.
+
+
+Current vim plugins being used:
+
+1. AutoComplPop
+2. surround
+3. snipMate
+4. autoclose
+
+Todo:
+=====
+- Study markdow to prettify this README
+
+
+About Plugin Integration:
+=========================
 Until i figure out how to be able to track my changes to the submodules (plugin integration),
-Take note of the following changes to be done:
+Some things must be changed by hand after a plugin upgrad.
+
+IDEA: Maybe I can mirror the plugin repositories and just pull from these mirrors??
+
+Take note of the following changes that needs to be done post-intall
 
 1. AutoComplPop and SnipPate integration:
 

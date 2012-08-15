@@ -2,6 +2,7 @@ call pathogen#infect()
 filetype plugin on
 filetype plugin indent on
 "autocmd FileType python set omnifunc=pythoncomplete#Complete
+autocmd FileType python runtime! autoload/pythoncomplete.vim
 syntax on
 set number
 

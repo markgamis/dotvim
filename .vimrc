@@ -51,3 +51,8 @@ colorscheme molokai
 set laststatus=2
 set ruler
 
+" Needed as a workaround because of a problem with AutoComplPop
+" https://github.com/sukima/xmledit/issues/15
+"
+autocmd FileType xml set omnifunc=xmlcomplete#CompleteTags noci
+autocmd FileType html set omnifunc=htmlcomplete#CompleteTags noci

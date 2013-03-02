@@ -7,8 +7,10 @@
 set number
 "
 " Change colorscheme
-" colorscheme slate
-"
+let g:molokai_original=1
+colorscheme molokai
+"colorscheme smyck
+
 " Turns on the tab bar always
 set showtabline=2
 "
@@ -19,7 +21,13 @@ set showtabline=2
 set guioptions-=T
 "
 " Sets the font and size
-set guifont=DejaVu\ Sans\ Mono:h12
-"
+" set guifont=Envy\ Code\ R:h12
+" set guifont=DejaVu\ Sans\ Mono:h12
+" set guifont=Menlo:h12
+set guifont=Source\ Code\ Pro\ Regular:h12
 " Sets the percent transparency
 " set transparency=10
+
+set lines=50 
+set columns=121
+set cursorline 

@@ -19,8 +19,8 @@ Todo:
 
 About Plugin Integration:
 =========================
-Until i figure out how to be able to track my changes to the submodules (plugin integration),
-Some things must be changed by hand after a plugin upgrad.
+Until I figure out how to be able to track my changes to the submodules (plugin integration),
+Some things must be changed by hand after a plugin is upgraded.
 
 IDEA: Maybe I can mirror the plugin repositories and just pull from these mirrors??
 
